@@ -1,0 +1,18 @@
+.header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: rgb(161, 220, 243);
+    height: 7rem;
+}
+
+.header__title{
+    padding-left: 4rem;
+    padding-top: 2rem;
+    grid-column: 1;
+    text-align: left;
+    margin: 0;
+    font-size: xx-large;
+}
+
+
+

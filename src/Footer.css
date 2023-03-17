@@ -1,0 +1,29 @@
+@import url('https://css.gg/facebook.css');
+@import url('https://css.gg/instagram.css');
+.footer{
+    display: flex;
+    flex-direction:column;
+    background-color: rgb(161, 220, 243);
+}
+
+.footer__list{
+    list-style: none;
+}
+
+
+
+.footer__text{
+    margin-left: 3rem;
+    text-align: left;
+}
+
+
+.footer__social{
+    margin: 10px;
+    
+}
+
+.copyright{
+    text-align: end;
+    color: gray;
+}

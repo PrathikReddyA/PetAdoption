@@ -1,0 +1,93 @@
+.form_input{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.user__email, .confirm__email{
+    padding: 0;
+}
+
+.email__input, .confirm-email__input{
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.submit__button{
+    background-color: lime;
+    border: solid 1px blue;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    height: 2rem;
+}
+
+
+
+.success__email{
+    color: green;
+}
+
+.fail__email{
+    color: red;
+}
+
+.user__email, .confirm__email{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-bottom: 1rem;
+    align-self: center;
+    width: 50%;
+    text-align: left;
+}
+
+.validation__header{
+    grid-column: span 2;
+}
+
+.email__error, .confirm__error{
+    color: red;
+}
+
+.form_input{
+    display: flex;
+    padding: 3rem;
+    text-align: center;
+}
+
+.options{
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.checkbox{
+    grid-column: span 2;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn__subscribe{
+    grid-column: span 2;
+    width: 5rem;
+    align-self: center;
+    margin-top: 1rem;
+}
+
+
+@media (max-width:44rem) {
+    .form_input{
+        display: flex;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .user__email, .confirm__email{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 1rem;
+        align-self: center;
+        width: 70%;
+    }
+}

@@ -1,0 +1,34 @@
+.cards{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    padding: 1rem;
+}
+
+.card{
+    grid-column: span 3;
+    border: 1px solid black;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+.card__img{
+    aspect-ratio: 1/1;
+    width: 90%;
+    padding: 2rem;
+    
+}
+
+.card__text{
+    font-size: small;
+    margin: 1rem;
+    text-align: justify;
+}
+
+
+@media (max-width: 44rem) {
+    .card{
+        grid-column: span 12;
+    }
+
+}

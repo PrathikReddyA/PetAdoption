@@ -1,0 +1,23 @@
+.app{
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100%;
+}
+
+#skipLink, #skipLink:hover, #skipLink:visited{
+  position: absolute;
+  top:0px;
+  width:1px;
+  height:1px;
+  overflow: hidden;
+  text-align: center;
+}
+
+#skipLink:active,#skipLink:focus{
+  position:fixed;
+  width:fit-content;
+  height:fit-content;
+  text-align: center;
+  align-self: center;
+  left: 50%;
+}
